@@ -1,0 +1,63 @@
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    margin: 0;
+    margin-bottom: 100px;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(121, 226, 121);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+nav{
+    width: 90%;
+    height: 50%;
+    background-color: forestgreen;
+}
+
+aside {
+    width: 22.5%;
+    height: 500px;
+    background-color: peru;
+    display: inline-block;
+}
+
+main {
+    width: 40%;
+    height: 500px;
+    background-color: red;
+    padding: 1em;
+}
+
+article {
+    width: 80%;
+    height: 22%;
+    /*padding: 1em;
+    margin: 1em;*/
+    margin: 2em;
+    background-color: gainsboro;
+}
+
+.item {
+    margin: 1em;
+    padding: 1em;
+    float: left;
+}
+
+footer {
+    background-color: mediumslateblue;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+}
+

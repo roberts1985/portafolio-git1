@@ -1,0 +1,10 @@
+header {
+    padding: 1rem;
+    background-color: lawngreen;
+    border-radius: 0.5rem;
+}
+
+nav {
+    background-color: green;
+    border-radius: 0.5rem;
+}
