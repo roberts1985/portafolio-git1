@@ -1,58 +1,48 @@
-body{
-    background-color: rgb(168, 168, 213);
+header {
+    border-radius: 0.5rem;
+    padding: 1rem;
+    background-color: lawngreen;
 }
 
-* {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
+nav {
+    border-radius: 0.5rem;
+    background-color: green;
+    color: white;
 }
 
-.formato-div {
-    width: 450px;
-    height: 40rem;
-    border-radius: 1rem;
-    margin: 7% 35%;
-    background-color: white;
-}
-
-#div-secundario{
-    width: 80%;
-    height: 15%;
-    background-color: rgb(228, 228, 228);
-    margin-left: 10%;
-    border-radius: 1rem;
-}
-
-#img-principal{
-    border-radius: 1rem  1rem 0rem 0rem;
-}
-
-#img-musica, .div-plan-anual, .div-change{
+aside, main{
+    border-radius: 0.5rem;
     display: inline-block;
-    margin-top: 1rem;
+    height: 50vh;
+    vertical-align: top;
+    margin-top: 4rem;
+    color: white
 }
 
-.div-plan-anual{
-    margin-left: 3rem;
+article{
+    width: 80%;
+    border-radius: 0.5rem;
+    background-color: rgb(249, 242, 242);
+    padding: 4%;
+    margin: 4%;
+    color: black;
+}
+
+aside{
+    background-color: orange;
+    width: 25%;
+}
+
+main{
+    background-color: tomato;
+    width: calc(50% - 5rem);
+    margin-left: 2rem;
     margin-right: 2rem;
 }
 
-#p-plan-anual{
-    color: black;
-    font-weight: bold;
-}
-
-p {
-    color: gray;
-    margin: 10px;
-}
-
-button {
+footer{
+    margin-top: 5rem;
+    background-color: blueviolet;
+    height: 17.5vh;
     border-radius: 0.5rem;
-    background-color: blue;
-    color: white;
-    margin-top: 2rem;
-    width: 80%;
-    height: 7%;
-    font-weight: bold;
 }
